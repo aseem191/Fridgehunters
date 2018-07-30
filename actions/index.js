@@ -1,0 +1,1 @@
+export const toggleList = isOpen => ({ type: "TOGGLELIST", payload: isOpen });

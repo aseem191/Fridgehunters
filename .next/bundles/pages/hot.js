@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/hot', function() {
           var comp =
-      webpackJsonp([5],{
+      webpackJsonp([4],{
 
 /***/ "./components/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -226,7 +226,7 @@ var _jsxFileName = "C:\\Users\\Aseem\\React Projects\\Fridgehunters\\components\
       fileName: _jsxFileName,
       lineNumber: 8
     },
-    className: "jsx-2117693257"
+    className: "jsx-3785324206"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
@@ -239,17 +239,17 @@ var _jsxFileName = "C:\\Users\\Aseem\\React Projects\\Fridgehunters\\components\
       fileName: _jsxFileName,
       lineNumber: 10
     },
-    className: "jsx-2117693257"
+    className: "jsx-3785324206"
   }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
     charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
-    className: "jsx-2117693257"
+    className: "jsx-3785324206"
   })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "2117693257",
-    css: "@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');@fontface{font-family:'Gentium Book Basic',cursive;src:url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');}@import url('https://fonts.googleapis.com/css?family=Montserrat');@fontface{font-family:'Montserrat',cursive;src:url('https://fonts.googleapis.com/css?family=Montserrat');}@import url('https://fonts.googleapis.com/css?family=Noto+Sans');@fontface{font-family:'Noto Sans',cursive;src:url('https://fonts.googleapis.com/css?family=Noto+Sans');}@import url('https://fonts.googleapis.com/css?family=Lobster');@fontface{font-family:'Lobster',cursive;src:url('https://fonts.googleapis.com/css?family=Lobster');}body{background:#e1ffdb;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG1ldGEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWXVCLEFBRzRCLEFBR29ELEFBR3pCLEFBS3FCLEFBRzdCLEFBR21DLEFBR3RDLEFBSTBCLEFBRzVCLG1CQXpCbkMsV0EyQkMsRUFQQSxDQU5FLFFBUkEsZ0RBcUJELElBUEEsRUFORSxnQkFSQSIsImZpbGUiOiJjb21wb25lbnRzXFxtZXRhLmpzIiwic291cmNlUm9vdCI6IkM6XFxVc2Vyc1xcQXNlZW1cXFJlYWN0IFByb2plY3RzXFxGcmlkZ2VodW50ZXJzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgLypiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIvc3RhdGljL2Rvd25sb2FkLmpwZ1wiKTtcclxuICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgICAgIGJhY2tncm91bi1hdHRhY2htZW50OiBmaXhlZDtcclxuICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiByaWdodCBib3R0b207Ki9cclxuICByZXR1cm4oXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxyXG4gICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxyXG4gICAgPC9IZWFkPlxyXG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgYm9keSB7IFxyXG4gICAgICAgIGJhY2tncm91bmQ6ICNlMWZmZGI7XHJcblxyXG4gICAgICB9XHJcbiAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9R2VudGl1bStCb29rK0Jhc2ljJyk7XHJcblxyXG4gICAgICAgICAgQGZvbnRmYWNlIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdHZW50aXVtIEJvb2sgQmFzaWMnLCBjdXJzaXZlO1xyXG4gICAgICAgICAgICBzcmM6IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUdlbnRpdW0rQm9vaytCYXNpYycpXHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1vbnRzZXJyYXQnKTtcclxuXHJcbiAgICAgICAgICBAZm9udGZhY2Uge1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBjdXJzaXZlO1xyXG4gICAgICAgICAgICBzcmM6IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1vbnRzZXJyYXQnKVxyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9Tm90bytTYW5zJyk7XHJcblxyXG4gICAgICAgIEBmb250ZmFjZSB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogJ05vdG8gU2FucycsIGN1cnNpdmU7XHJcbiAgICAgICAgICBzcmM6IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU5vdG8rU2FucycpXHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TG9ic3RlcicpO1xyXG5cclxuICAgICAgICBAZm9udGZhY2Uge1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdMb2JzdGVyJywgY3Vyc2l2ZTtcclxuICAgICAgICAgIHNyYzogdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TG9ic3RlcicpXHJcbiAgICAgICAgfVxyXG5cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKX1cclxuIl19 */\n/*@ sourceURL=components\\meta.js */"
+    styleId: "3785324206",
+    css: "@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');@fontface{font-family:'Gentium Book Basic',cursive;src:url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');}@import url('https://fonts.googleapis.com/css?family=Montserrat');@fontface{font-family:'Montserrat',cursive;src:url('https://fonts.googleapis.com/css?family=Montserrat');}@import url('https://fonts.googleapis.com/css?family=Noto+Sans');@fontface{font-family:'Noto Sans',cursive;src:url('https://fonts.googleapis.com/css?family=Noto+Sans');}@import url('https://fonts.googleapis.com/css?family=Lobster');@fontface{font-family:'Lobster',cursive;src:url('https://fonts.googleapis.com/css?family=Lobster');}body{background-image:url(\"/static/backgroundIm.png\");background-position:center top;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXG1ldGEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWXVCLEFBRzBELEFBSXNCLEFBR3pCLEFBS3FCLEFBRzdCLEFBR21DLEFBR3RDLEFBSTBCLEFBRzVCLDhCQUVsQyxFQVBBLENBTkUsUUFSQSxRQVI4QiwrQkFFakMsU0EyQkUsSUFQQSxFQU5FLGdCQVJBIiwiZmlsZSI6ImNvbXBvbmVudHNcXG1ldGEuanMiLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxBc2VlbVxcUmVhY3QgUHJvamVjdHNcXEZyaWRnZWh1bnRlcnMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXHJcbmV4cG9ydCBkZWZhdWx0ICgpID0+IHtcclxuICAvKmJhY2tncm91bmQtaW1hZ2U6IHVybChcIi9zdGF0aWMvZG93bmxvYWQuanBnXCIpO1xyXG4gICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICAgICAgYmFja2dyb3VuLWF0dGFjaG1lbnQ6IGZpeGVkO1xyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IHJpZ2h0IGJvdHRvbTsqL1xyXG4gIHJldHVybihcclxuICA8ZGl2PlxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiIC8+XHJcbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICBib2R5IHsgXHJcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiL3N0YXRpYy9iYWNrZ3JvdW5kSW0ucG5nXCIpO1xyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlciB0b3A7IFxyXG5cclxuICAgICAgfVxyXG4gICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUdlbnRpdW0rQm9vaytCYXNpYycpO1xyXG5cclxuICAgICAgICAgIEBmb250ZmFjZSB7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnR2VudGl1bSBCb29rIEJhc2ljJywgY3Vyc2l2ZTtcclxuICAgICAgICAgICAgc3JjOiB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1HZW50aXVtK0Jvb2srQmFzaWMnKVxyXG4gICAgICAgICAgfVxyXG5cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Nb250c2VycmF0Jyk7XHJcblxyXG4gICAgICAgICAgQGZvbnRmYWNlIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0JywgY3Vyc2l2ZTtcclxuICAgICAgICAgICAgc3JjOiB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Nb250c2VycmF0JylcclxuICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU5vdG8rU2FucycpO1xyXG5cclxuICAgICAgICBAZm9udGZhY2Uge1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdOb3RvIFNhbnMnLCBjdXJzaXZlO1xyXG4gICAgICAgICAgc3JjOiB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Ob3RvK1NhbnMnKVxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxvYnN0ZXInKTtcclxuXHJcbiAgICAgICAgQGZvbnRmYWNlIHtcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiAnTG9ic3RlcicsIGN1cnNpdmU7XHJcbiAgICAgICAgICBzcmM6IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxvYnN0ZXInKVxyXG4gICAgICAgIH1cclxuXHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbil9XHJcbiJdfQ== */\n/*@ sourceURL=components\\meta.js */"
   }));
 });
 
@@ -15529,7 +15529,7 @@ var First = function First(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/hot.js");
@@ -15537,7 +15537,7 @@ module.exports = __webpack_require__("./pages/hot.js");
 
 /***/ })
 
-},[4])
+},[3])
           return { page: comp.default }
         })
       ;

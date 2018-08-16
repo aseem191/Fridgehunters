@@ -12,7 +12,8 @@ export default () => {
     </Head>
     <style jsx global>{`
       body { 
-        background: #e1ffdb;
+        background-image: url("/static/backgroundIm.png");
+        background-position: center top; 
 
       }
       @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');

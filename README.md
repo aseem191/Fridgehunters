@@ -5,4 +5,4 @@ This repository contains the Next.js React project along with server.js, which c
 
 Screenshot of the app in action:
 
-![screen](https://github.com/aseem191/Fridgehunters-Work-In-Progress/blob/master/fridgehuntersmainpage.PNG)
+![screen](https://github.com/aseem191/Fridgehunters/blob/master/static/appInAction.PNG?raw=true)

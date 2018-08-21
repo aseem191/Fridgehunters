@@ -148,7 +148,6 @@ class RecipeList extends React.Component{
 
         p {
           font-family: "Noto Sans", Times, serif;
-          font-size: 17px;
         }
         
       `}</style>

@@ -184,7 +184,9 @@ class MainPage extends React.Component{
 			<Link  href={{ pathname: '/recipelist', query: { ingredlist: this.state.ingredtextlist.toString() } }}>
 	        	<Button variant="contained" style={{fontFamily: "Montserrat", fontWeight: "bold", fontSize: '20px' }} color="primary">FIND RECIPES</Button>
 	        </Link>
-			
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+			<h6 style={{fontSize: "12px", color: "#009109"}}>Created by Aseem Sane. To visit the GitHub repository for this project, go <a href="https://github.com/aseem191/Fridgehunters" style={{fontSize: "12px"}}>here</a>.</h6>
 			</div><style jsx>{`
 	        
 

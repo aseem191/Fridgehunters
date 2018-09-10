@@ -144,7 +144,7 @@ class MainPage extends React.Component{
 		        
 		    </form>
 
-		    <Button variant="contained" color="secondary" onClick={this.addIngredient} id="addButton"  style={{ fontFamily: "Gentium Book Basic", fontWeight: "bold", fontSize: '16px' }}>Pick ingredient</Button>
+		    <Button variant="contained" color="secondary" onClick={this.addIngredient} id="addButton"  style={{ fontFamily: "Gentium Book Basic", fontWeight: "bold", fontSize: '16px' }}>Pick ingredients</Button>
 			
 			{ 
 				this.props.listOpen 

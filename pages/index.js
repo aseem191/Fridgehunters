@@ -33,7 +33,7 @@ class MainPage extends React.Component{
 	}
 
 	showMenu(event){
-
+		console.log(this.state.textValue);
 		if(this.props.listOpen){
 			this.setState({ textValue: event.target.value.toLowerCase()});  
 		}
@@ -53,7 +53,7 @@ class MainPage extends React.Component{
 		    ingredfoundlist: ["Loading..."]
 		});
 		fetch(urlname + "/ingredients?uname=" + encodeURI(event.target.value.toLowerCase())).then(response => response.text()).then(data => {
-			console.log("Show data fetched. Count: " + data)
+			console.log("Show data fetched. Count: " + data);
 			var datalist = data.split(",");
 			if(data == ""){
 				this.setState({
@@ -82,8 +82,8 @@ class MainPage extends React.Component{
 
 	addIngredient(event){
 		event.persist();
-
-		if(event.currentTarget.id == "addButton"){
+		if(event.currentTarget.id == "addButton" || event.target.id == "myField"){
+			console.log("YEET")
 			if(this.state.textValue == ""){
 				return;
 			}
@@ -139,7 +139,7 @@ class MainPage extends React.Component{
 			<form name="addForm" onSubmit={(event) => this.showMenu(event)}>
 		        <label>
 		          	<h2>What's in your fridge? </h2>
-		          	<TextField  onKeyPress={e => {if (e.key === 'Enter') e.preventDefault();}} onChange={(event) => this.showMenu(event)} margin="normal" />
+		          	<TextField  onKeyPress={e => {if (e.key === 'Enter') {e.preventDefault(); this.addIngredient(e);}}} id="myField" onChange={(event) => this.showMenu(event)} margin="normal" />
 		        </label>
 		        
 		    </form>

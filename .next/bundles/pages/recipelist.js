@@ -1,5 +1,5 @@
 module.exports =
-__NEXT_REGISTER_PAGE('/hot', function() {
+__NEXT_REGISTER_PAGE('/recipelist', function() {
           var comp =
       webpackJsonp([6],{
 
@@ -15191,40 +15191,45 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/hot.js":
+/***/ "./pages/recipelist.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router__ = __webpack_require__("./node_modules/next/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_MyLayout_js__ = __webpack_require__("./components/MyLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch__ = __webpack_require__("./node_modules/isomorphic-unfetch/browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_link__ = __webpack_require__("./node_modules/next/link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_urlname_js__ = __webpack_require__("./components/urlname.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Button__ = __webpack_require__("./node_modules/@material-ui/core/Button/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Button__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__ = __webpack_require__("./node_modules/@material-ui/core/Chip/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_Card__ = __webpack_require__("./node_modules/@material-ui/core/Card/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_Card___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_Card__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__material_ui_core_CardActions__ = __webpack_require__("./node_modules/@material-ui/core/CardActions/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__material_ui_core_CardActions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_CardActions__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardContent__ = __webpack_require__("./node_modules/@material-ui/core/CardContent/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardContent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography__ = __webpack_require__("./node_modules/@material-ui/core/Typography/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__material_ui_core_Badge__ = __webpack_require__("./node_modules/@material-ui/core/Badge/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__material_ui_core_Badge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Badge__);
-var _jsxFileName = "C:\\Users\\Aseem\\React Projects\\Fridgehunters\\pages\\hot.js";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_router__ = __webpack_require__("./node_modules/next/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_router__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_MyLayout_js__ = __webpack_require__("./components/MyLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch__ = __webpack_require__("./node_modules/isomorphic-unfetch/browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_urlname_js__ = __webpack_require__("./components/urlname.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button__ = __webpack_require__("./node_modules/@material-ui/core/Button/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_Chip__ = __webpack_require__("./node_modules/@material-ui/core/Chip/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_Chip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_Chip__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__material_ui_core_Card__ = __webpack_require__("./node_modules/@material-ui/core/Card/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__material_ui_core_Card___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_Card__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardActions__ = __webpack_require__("./node_modules/@material-ui/core/CardActions/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardActions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardActions__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_core_CardContent__ = __webpack_require__("./node_modules/@material-ui/core/CardContent/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_core_CardContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_CardContent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography__ = __webpack_require__("./node_modules/@material-ui/core/Typography/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__material_ui_core_Badge__ = __webpack_require__("./node_modules/@material-ui/core/Badge/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__material_ui_core_Badge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__material_ui_core_Badge__);
+
+var _jsxFileName = "C:\\Users\\Aseem\\React Projects\\Fridgehunters\\pages\\recipelist.js";
 
 
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } } function _next(value) { step("next", value); } function _throw(err) { step("throw", err); } _next(); }); }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -15265,12 +15270,22 @@ function (_React$Component) {
 
     _this = _possibleConstructorReturn(this, (RecipeList.__proto__ || Object.getPrototypeOf(RecipeList)).call(this, props));
     _this.addEndorsement = _this.addEndorsement.bind(_assertThisInitialized(_this));
+    _this.removeIngred = _this.removeIngred.bind(_assertThisInitialized(_this));
+    var listtext = _this.props.listtext;
+    var ingredlist = [];
+
+    if (listtext != "") {
+      ingredlist = listtext.split(",");
+    }
+
     _this.state = {
+      listtext: listtext,
+      ingredlist: ingredlist,
       recipes: [],
       endorsedrecipes: [],
       listready: false
     };
-    __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_6__components_urlname_js__["a" /* default */] + "/hotrecipes").then(function (response) {
+    __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_7__components_urlname_js__["a" /* default */] + "/recipes?ulist=" + encodeURI(_this.state.listtext)).then(function (response) {
       return response.text();
     }).then(function (datas) {
       var data = JSON.parse("[" + datas + "]"); //console.log("Show data fetched. Count: " + JSON.stringify(data))
@@ -15290,6 +15305,7 @@ function (_React$Component) {
 
       var index = this.state.endorsedrecipes.indexOf(event.currentTarget.getAttribute('key2'));
       var temprec = event.currentTarget.getAttribute('key2');
+      console.log(event.currentTarget.getAttribute('key2') + "yyyy" + index);
       var tempendorselist = this.state.endorsedrecipes.slice().concat([temprec]);
 
       if (index == -1) {
@@ -15298,7 +15314,7 @@ function (_React$Component) {
             endorsedrecipes: tempendorselist
           };
         });
-        __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_6__components_urlname_js__["a" /* default */] + "/endorsement/" + encodeURI(temprec), {
+        __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_7__components_urlname_js__["a" /* default */] + "/endorsement/" + encodeURI(temprec), {
           method: 'PUT'
         }).then(function (response) {
           return response.text();
@@ -15306,7 +15322,7 @@ function (_React$Component) {
           console.log(data);
           return 1;
         }).then(function (useless) {
-          __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_6__components_urlname_js__["a" /* default */] + "/hotrecipes").then(function (response) {
+          __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_7__components_urlname_js__["a" /* default */] + "/recipes?ulist=" + encodeURI(_this2.state.listtext)).then(function (response) {
             return response.text();
           }).then(function (datas) {
             var data = JSON.parse("[" + datas + "]");
@@ -15320,142 +15336,190 @@ function (_React$Component) {
       }
     }
   }, {
-    key: "render",
-    value: function render() {
+    key: "removeIngred",
+    value: function removeIngred(event) {
       var _this3 = this;
 
-      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+      var index = this.state.ingredlist.indexOf(event.target.getAttribute('key2'));
+      var tempingreds = this.state.ingredlist.slice();
+      tempingreds.splice(index, 1);
+      var templist = tempingreds.toString();
+      this.setState({
+        listtext: templist,
+        ingredlist: tempingreds,
+        listready: false
+      });
+      __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default()(__WEBPACK_IMPORTED_MODULE_7__components_urlname_js__["a" /* default */] + "/recipes?ulist=" + encodeURI(templist)).then(function (response) {
+        return response.text();
+      }).then(function (datas) {
+        var data = JSON.parse("[" + datas + "]"); //console.log("Show data fetched. Count: " + JSON.stringify(data))
+
+        _this3.setState({
+          recipes: data,
+          listready: true
+        });
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this4 = this;
+
+      return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 92
         },
-        className: "jsx-429575055"
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "jsx-2376583973"
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("div", {
         align: "center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 93
         },
-        className: "jsx-429575055"
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+        className: "jsx-2376583973"
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 93
         },
-        className: "jsx-429575055"
-      }), this.state.listready ? null : __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        className: "jsx-429575055"
-      }, "Loading hot recipes..."), this.state.recipes.map(function (recipe) {
-        return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "jsx-2376583973"
+      }), this.state.ingredlist.length == 0 ? null : this.state.ingredlist.map(function (ingred) {
+        return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button___default.a, {
+          variant: "outlined",
+          onClick: _this4.removeIngred,
+          key: ingred,
+          key2: ingred,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 70
+            lineNumber: 98
+          }
+        }, ingred);
+      }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
+        },
+        className: "jsx-2376583973"
+      }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
+        },
+        className: "jsx-2376583973"
+      }), this.state.listready ? null : __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        className: "jsx-2376583973"
+      }, "Loading relevant recipes..."), this.state.recipes.map(function (recipe) {
+        return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("div", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 110
           },
-          className: "jsx-429575055"
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_Card___default.a, {
+          className: "jsx-2376583973"
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_Card___default.a, {
           style: {
             maxWidth: 450,
             backgroundColor: '#b3ffb3'
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 70
+            lineNumber: 110
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardContent___default.a, {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_CardContent___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 111
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography___default.a, {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography___default.a, {
           gutterBottom: true,
           variant: "headline",
           component: "h1",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72
+            lineNumber: 112
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73
+            lineNumber: 113
           },
-          className: "jsx-429575055"
-        }, recipe.name)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography___default.a, {
+          className: "jsx-2376583973"
+        }, recipe.name)), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography___default.a, {
           component: "p",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 115
           }
         }, recipe.ingredients.map(function (ingred) {
-          return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default.a, {
+          return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_Chip___default.a, {
             label: ingred,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 77
+              lineNumber: 117
             }
           });
-        })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography___default.a, {
+        })), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 120
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 120
           },
-          className: "jsx-429575055"
-        }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
+          className: "jsx-2376583973"
+        }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 81
+            lineNumber: 121
           },
-          className: "jsx-429575055"
+          className: "jsx-2376583973"
         }, recipe.description.split('\n').map(function (item, key) {
-          return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
+          return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("span", {
             key: key,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 82
+              lineNumber: 122
             },
-            className: "jsx-429575055"
-          }, item, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+            className: "jsx-2376583973"
+          }, item, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 82
+              lineNumber: 122
             },
-            className: "jsx-429575055"
+            className: "jsx-2376583973"
           }));
-        }))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Typography___default.a, {
+        }))), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Typography___default.a, {
           component: "p",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 126
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 126
           },
-          className: "jsx-429575055"
-        }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+          className: "jsx-2376583973"
+        }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 126
           },
-          className: "jsx-429575055"
-        }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Badge___default.a, {
+          className: "jsx-2376583973"
+        }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__material_ui_core_Badge___default.a, {
           color: "secondary",
           badgeContent: recipe.endorse,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 127
           }
-        }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Button___default.a, {
+        }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button___default.a, {
           size: "small",
           variant: "contained",
           color: "primary",
@@ -15465,46 +15529,99 @@ function (_React$Component) {
             fontWeight: "bold",
             fontSize: '15px'
           },
-          onClick: _this3.addEndorsement,
+          onClick: _this4.addEndorsement,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 128
           }
-        }, _this3.state.endorsedrecipes.indexOf(recipe.name) == -1 ? "Endorse" : "Added endorsement")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_CardActions___default.a, {
+        }, _this4.state.endorsedrecipes.indexOf(recipe.name) == -1 ? "Endorse" : "Added endorsement")))), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__material_ui_core_CardActions___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 94
+            lineNumber: 134
           }
-        })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
+        })), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 136
           },
-          className: "jsx-429575055"
+          className: "jsx-2376583973"
         }));
-      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-        styleId: "429575055",
-        css: "h2.jsx-429575055{font-family:\"Gentium Book Basic\",Times,serif;}p.jsx-429575055{font-family:\"Noto Sans\",Times,serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxob3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUd3QixBQUswRCxBQUlULG9DQUN4QyxTQUpBIiwiZmlsZSI6InBhZ2VzXFxob3QuanMiLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxBc2VlbVxcUmVhY3QgUHJvamVjdHNcXEZyaWRnZWh1bnRlcnMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB3aXRoUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInXHJcbmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcclxuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCdcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xyXG5pbXBvcnQgdXJsbmFtZSBmcm9tICcuLi9jb21wb25lbnRzL3VybG5hbWUuanMnXHJcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcclxuaW1wb3J0IENoaXAgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2hpcCc7XHJcbmltcG9ydCBDYXJkIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0NhcmQnO1xyXG5pbXBvcnQgQ2FyZEFjdGlvbnMgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZEFjdGlvbnMnO1xyXG5pbXBvcnQgQ2FyZENvbnRlbnQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZENvbnRlbnQnO1xyXG5pbXBvcnQgVHlwb2dyYXBoeSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9UeXBvZ3JhcGh5JztcclxuaW1wb3J0IEJhZGdlIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0JhZGdlJztcclxuXHJcbmNsYXNzIFJlY2lwZUxpc3QgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcblxyXG4gIGNvbnN0cnVjdG9yKHByb3BzKXtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuYWRkRW5kb3JzZW1lbnQgPSB0aGlzLmFkZEVuZG9yc2VtZW50LmJpbmQodGhpcyk7XHJcbiAgICB0aGlzLnN0YXRlID0ge1xyXG4gICAgICByZWNpcGVzOiBbXSxcclxuICAgICAgZW5kb3JzZWRyZWNpcGVzOiBbXSxcclxuICAgICAgbGlzdHJlYWR5OiBmYWxzZVxyXG4gICAgfVxyXG5cclxuICAgIGZldGNoKHVybG5hbWUgKyBcIi9ob3RyZWNpcGVzXCIpLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UudGV4dCgpKS50aGVuKGRhdGFzID0+IHtcclxuICAgICAgdmFyIGRhdGEgPSBKU09OLnBhcnNlKFwiW1wiICsgZGF0YXMgICsgXCJdXCIpXHJcbiAgICAgIC8vY29uc29sZS5sb2coXCJTaG93IGRhdGEgZmV0Y2hlZC4gQ291bnQ6IFwiICsgSlNPTi5zdHJpbmdpZnkoZGF0YSkpXHJcbiAgICAgIHRoaXMuc2V0U3RhdGUoe1xyXG4gICAgICAgIHJlY2lwZXM6IGRhdGEsXHJcbiAgICAgICAgbGlzdHJlYWR5OiB0cnVlXHJcbiAgICAgIH0pXHJcbiAgICB9KVxyXG4gIH1cclxuXHJcbiAgYWRkRW5kb3JzZW1lbnQoZXZlbnQpe1xyXG4gICAgdmFyIGluZGV4ID0gdGhpcy5zdGF0ZS5lbmRvcnNlZHJlY2lwZXMuaW5kZXhPZihldmVudC5jdXJyZW50VGFyZ2V0LmdldEF0dHJpYnV0ZSgna2V5MicpKTtcclxuICAgIHZhciB0ZW1wcmVjID0gZXZlbnQuY3VycmVudFRhcmdldC5nZXRBdHRyaWJ1dGUoJ2tleTInKTtcclxuICAgIHZhciB0ZW1wZW5kb3JzZWxpc3QgPSB0aGlzLnN0YXRlLmVuZG9yc2VkcmVjaXBlcy5zbGljZSgpLmNvbmNhdChbdGVtcHJlY10pXHJcblxyXG4gICAgaWYoaW5kZXggPT0gLTEpe1xyXG4gICAgICBcclxuICAgICAgdGhpcy5zZXRTdGF0ZSgocHJldlN0YXRlLCBwcm9wcykgPT4ge3JldHVybiB7ZW5kb3JzZWRyZWNpcGVzOiB0ZW1wZW5kb3JzZWxpc3R9fSlcclxuICAgICAgZmV0Y2godXJsbmFtZSArIFwiL2VuZG9yc2VtZW50L1wiICsgZW5jb2RlVVJJKHRlbXByZWMpLCB7bWV0aG9kOiAnUFVUJ30pLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UudGV4dCgpKS50aGVuKGRhdGEgPT4ge1xyXG4gICAgICAgIGNvbnNvbGUubG9nKGRhdGEpXHJcbiAgICAgICAgcmV0dXJuIDE7XHJcbiAgICAgIH0pLnRoZW4odXNlbGVzcyA9PiB7ZmV0Y2godXJsbmFtZSArIFwiL2hvdHJlY2lwZXNcIikudGhlbihyZXNwb25zZSA9PiByZXNwb25zZS50ZXh0KCkpLnRoZW4oZGF0YXMgPT4ge1xyXG4gICAgICAgIHZhciBkYXRhID0gSlNPTi5wYXJzZShcIltcIiArIGRhdGFzICArIFwiXVwiKVxyXG4gICAgICAgIGNvbnNvbGUubG9nKFwiQ29taW5nIHNlY29uZFwiKVxyXG4gICAgICAgIC8vY29uc29sZS5sb2coXCJTaG93IGRhdGEgZmV0Y2hlZC4gQ291bnQ6IFwiICsgSlNPTi5zdHJpbmdpZnkoZGF0YSkpXHJcbiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XHJcbiAgICAgICAgICByZWNpcGVzOiBkYXRhXHJcbiAgICAgICAgfSlcclxuICAgICAgfSlcclxuICAgICAgfSlcclxuICAgIH1cclxuICB9XHJcblxyXG4gIHJlbmRlcigpe1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgPGRpdj5cclxuICAgICAgPGRpdiBhbGlnbj1cImNlbnRlclwiPjxici8+XHJcblxyXG4gICAgICB7XHJcbiAgICAgICAgdGhpcy5zdGF0ZS5saXN0cmVhZHkgXHJcbiAgICAgICAgPyBudWxsXHJcbiAgICAgICAgOiA8aDI+TG9hZGluZyBob3QgcmVjaXBlcy4uLjwvaDI+XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIHtcclxuICAgICAgICB0aGlzLnN0YXRlLnJlY2lwZXMubWFwKHJlY2lwZSA9PiAoPGRpdj48Q2FyZCBzdHlsZT17e21heFdpZHRoOiA0NTAsICBiYWNrZ3JvdW5kQ29sb3I6ICcjYjNmZmIzJ319ID5cclxuICAgICAgICAgIDxDYXJkQ29udGVudD5cclxuICAgICAgICAgICAgPFR5cG9ncmFwaHkgZ3V0dGVyQm90dG9tIHZhcmlhbnQ9XCJoZWFkbGluZVwiIGNvbXBvbmVudD1cImgxXCI+XHJcbiAgICAgICAgICAgICAgPGgyPntyZWNpcGUubmFtZX08L2gyPlxyXG4gICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IGNvbXBvbmVudD1cInBcIj5cclxuICAgICAgICAgICAgICB7cmVjaXBlLmluZ3JlZGllbnRzLm1hcChpbmdyZWQgPT4gKFxyXG4gICAgICAgICAgICAgICAgPENoaXAgbGFiZWw9e2luZ3JlZH0gLz5cclxuICAgICAgICAgICAgICApKX1cclxuICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICA8VHlwb2dyYXBoeT48YnIvPlxyXG4gICAgICAgICAgICAgIDxwPntyZWNpcGUuZGVzY3JpcHRpb24uc3BsaXQoJ1xcbicpLm1hcCgoaXRlbSwga2V5KSA9PiB7XHJcbiAgICAgICAgICAgICAgICByZXR1cm4gPHNwYW4ga2V5PXtrZXl9PntpdGVtfTxici8+PC9zcGFuPlxyXG4gICAgICAgICAgICAgIH0pfTwvcD5cclxuICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgICA8VHlwb2dyYXBoeSBjb21wb25lbnQ9XCJwXCI+PGJyLz48YnIvPlxyXG4gICAgICAgICAgICAgIDxCYWRnZSBjb2xvcj1cInNlY29uZGFyeVwiIGJhZGdlQ29udGVudD17cmVjaXBlLmVuZG9yc2V9PlxyXG4gICAgICAgICAgICAgIDxCdXR0b24gc2l6ZT1cInNtYWxsXCIgIHZhcmlhbnQ9XCJjb250YWluZWRcIiAgY29sb3I9XCJwcmltYXJ5XCIga2V5Mj17cmVjaXBlLm5hbWV9ICBzdHlsZT17eyBmb250RmFtaWx5OiBcIkdlbnRpdW0gQm9vayBCYXNpY1wiLCBmb250V2VpZ2h0OiBcImJvbGRcIiwgZm9udFNpemU6ICcxNXB4JyB9fSBvbkNsaWNrPXt0aGlzLmFkZEVuZG9yc2VtZW50fT5cclxuICAgICAgICAgICAgICAgIHsodGhpcy5zdGF0ZS5lbmRvcnNlZHJlY2lwZXMuaW5kZXhPZihyZWNpcGUubmFtZSkgPT0gLTEpID8gXCJFbmRvcnNlXCIgOiBcIkFkZGVkIGVuZG9yc2VtZW50XCJ9XHJcbiAgICAgICAgICAgICAgPC9CdXR0b24+XHJcbiAgICAgICAgICAgICAgPC9CYWRnZT5cclxuICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgPC9DYXJkQ29udGVudD5cclxuICAgICAgICAgIDxDYXJkQWN0aW9ucz5cclxuICAgICAgICAgIDwvQ2FyZEFjdGlvbnM+XHJcbiAgICAgICAgPC9DYXJkPjxici8+PC9kaXY+KVxyXG4gICAgICAgIClcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgPC9kaXY+PHN0eWxlIGpzeD57YFxyXG4gICAgICAgIFxyXG5cclxuICAgICAgICBoMiB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogXCJHZW50aXVtIEJvb2sgQmFzaWNcIiwgVGltZXMsIHNlcmlmO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgcCB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogXCJOb3RvIFNhbnNcIiwgVGltZXMsIHNlcmlmO1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8L2Rpdj5cclxuICAgIClcclxuICB9XHJcbn1cclxuXHJcbmNvbnN0IEZpcnN0ID0gIChwcm9wcykgPT4gKFxyXG4gIDxMYXlvdXQ+XHJcbiAgICA8UmVjaXBlTGlzdCAvPlxyXG4gIDwvTGF5b3V0PlxyXG4pXHJcbmV4cG9ydCBkZWZhdWx0IEZpcnN0Il19 */\n/*@ sourceURL=pages\\hot.js */"
+      }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_link___default.a, {
+        href: {
+          pathname: '/create',
+          query: {}
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 140
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Button___default.a, {
+        variant: "contained",
+        color: "secondary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        },
+        className: "jsx-2376583973"
+      }, "Make your own recipe!")))), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default.a, {
+        styleId: "2376583973",
+        css: "h2.jsx-2376583973{font-family:\"Gentium Book Basic\",Times,serif;}p.jsx-2376583973{font-family:\"Noto Sans\",Times,serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxyZWNpcGVsaXN0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThJd0IsQUFJMEQsQUFJVCxvQ0FDeEMsU0FKQSIsImZpbGUiOiJwYWdlc1xccmVjaXBlbGlzdC5qcyIsInNvdXJjZVJvb3QiOiJDOlxcVXNlcnNcXEFzZWVtXFxSZWFjdCBQcm9qZWN0c1xcRnJpZGdlaHVudGVycyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHdpdGhSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcidcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0LmpzJ1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcbmltcG9ydCB1cmxuYW1lIGZyb20gJy4uL2NvbXBvbmVudHMvdXJsbmFtZS5qcydcclxuaW1wb3J0IEJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9CdXR0b24nO1xyXG5pbXBvcnQgQ2hpcCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DaGlwJztcclxuaW1wb3J0IENhcmQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZCc7XHJcbmltcG9ydCBDYXJkQWN0aW9ucyBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkQWN0aW9ucyc7XHJcbmltcG9ydCBDYXJkQ29udGVudCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkQ29udGVudCc7XHJcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1R5cG9ncmFwaHknO1xyXG5pbXBvcnQgQmFkZ2UgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQmFkZ2UnO1xyXG5cclxuY2xhc3MgUmVjaXBlTGlzdCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcclxuXHJcbiAgY29uc3RydWN0b3IocHJvcHMpe1xyXG4gICAgc3VwZXIocHJvcHMpO1xyXG4gICAgdGhpcy5hZGRFbmRvcnNlbWVudCA9IHRoaXMuYWRkRW5kb3JzZW1lbnQuYmluZCh0aGlzKTtcclxuICAgIHRoaXMucmVtb3ZlSW5ncmVkID0gdGhpcy5yZW1vdmVJbmdyZWQuYmluZCh0aGlzKTtcclxuXHJcbiAgICB2YXIgbGlzdHRleHQgPSB0aGlzLnByb3BzLmxpc3R0ZXh0O1xyXG4gICAgdmFyIGluZ3JlZGxpc3QgPSBbXTtcclxuICAgIGlmKGxpc3R0ZXh0ICE9IFwiXCIpe1xyXG4gICAgICBpbmdyZWRsaXN0ID0gbGlzdHRleHQuc3BsaXQoXCIsXCIpO1xyXG4gICAgfVxyXG4gICAgdGhpcy5zdGF0ZSA9IHtcclxuICAgICAgbGlzdHRleHQ6IGxpc3R0ZXh0LFxyXG4gICAgICBpbmdyZWRsaXN0OiBpbmdyZWRsaXN0LFxyXG4gICAgICByZWNpcGVzOiBbXSxcclxuICAgICAgZW5kb3JzZWRyZWNpcGVzOiBbXSxcclxuICAgICAgbGlzdHJlYWR5OiBmYWxzZVxyXG4gICAgfVxyXG5cclxuICAgIGZldGNoKHVybG5hbWUgKyBcIi9yZWNpcGVzP3VsaXN0PVwiICsgZW5jb2RlVVJJKHRoaXMuc3RhdGUubGlzdHRleHQpKS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLnRleHQoKSkudGhlbihkYXRhcyA9PiB7XHJcbiAgICAgIHZhciBkYXRhID0gSlNPTi5wYXJzZShcIltcIiArIGRhdGFzICArIFwiXVwiKVxyXG4gICAgICAvL2NvbnNvbGUubG9nKFwiU2hvdyBkYXRhIGZldGNoZWQuIENvdW50OiBcIiArIEpTT04uc3RyaW5naWZ5KGRhdGEpKVxyXG4gICAgICB0aGlzLnNldFN0YXRlKHtcclxuICAgICAgICByZWNpcGVzOiBkYXRhLFxyXG4gICAgICAgIGxpc3RyZWFkeTogdHJ1ZVxyXG4gICAgICB9KVxyXG4gICAgfSlcclxuICB9XHJcblxyXG4gIGFkZEVuZG9yc2VtZW50KGV2ZW50KXtcclxuICAgIHZhciBpbmRleCA9IHRoaXMuc3RhdGUuZW5kb3JzZWRyZWNpcGVzLmluZGV4T2YoZXZlbnQuY3VycmVudFRhcmdldC5nZXRBdHRyaWJ1dGUoJ2tleTInKSk7XHJcbiAgICB2YXIgdGVtcHJlYyA9IGV2ZW50LmN1cnJlbnRUYXJnZXQuZ2V0QXR0cmlidXRlKCdrZXkyJyk7XHJcbiAgICBjb25zb2xlLmxvZyhldmVudC5jdXJyZW50VGFyZ2V0LmdldEF0dHJpYnV0ZSgna2V5MicpICsgXCJ5eXl5XCIgKyBpbmRleClcclxuICAgIHZhciB0ZW1wZW5kb3JzZWxpc3QgPSB0aGlzLnN0YXRlLmVuZG9yc2VkcmVjaXBlcy5zbGljZSgpLmNvbmNhdChbdGVtcHJlY10pXHJcblxyXG4gICAgaWYoaW5kZXggPT0gLTEpe1xyXG4gICAgICBcclxuICAgICAgdGhpcy5zZXRTdGF0ZSgocHJldlN0YXRlLCBwcm9wcykgPT4ge3JldHVybiB7ZW5kb3JzZWRyZWNpcGVzOiB0ZW1wZW5kb3JzZWxpc3R9fSlcclxuICAgICAgZmV0Y2godXJsbmFtZSArIFwiL2VuZG9yc2VtZW50L1wiICsgZW5jb2RlVVJJKHRlbXByZWMpLCB7bWV0aG9kOiAnUFVUJ30pLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UudGV4dCgpKS50aGVuKGRhdGEgPT4ge1xyXG4gICAgICAgIGNvbnNvbGUubG9nKGRhdGEpXHJcbiAgICAgICAgcmV0dXJuIDE7XHJcbiAgICAgIH0pLnRoZW4odXNlbGVzcyA9PiB7ZmV0Y2godXJsbmFtZSArIFwiL3JlY2lwZXM/dWxpc3Q9XCIgKyBlbmNvZGVVUkkodGhpcy5zdGF0ZS5saXN0dGV4dCkpLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UudGV4dCgpKS50aGVuKGRhdGFzID0+IHtcclxuICAgICAgICB2YXIgZGF0YSA9IEpTT04ucGFyc2UoXCJbXCIgKyBkYXRhcyAgKyBcIl1cIilcclxuICAgICAgICBjb25zb2xlLmxvZyhcIkNvbWluZyBzZWNvbmRcIilcclxuICAgICAgICAvL2NvbnNvbGUubG9nKFwiU2hvdyBkYXRhIGZldGNoZWQuIENvdW50OiBcIiArIEpTT04uc3RyaW5naWZ5KGRhdGEpKVxyXG4gICAgICAgIHRoaXMuc2V0U3RhdGUoe1xyXG4gICAgICAgICAgcmVjaXBlczogZGF0YVxyXG4gICAgICAgIH0pXHJcbiAgICAgIH0pXHJcbiAgICAgIH0pXHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICByZW1vdmVJbmdyZWQoZXZlbnQpe1xyXG4gICAgdmFyIGluZGV4ID0gdGhpcy5zdGF0ZS5pbmdyZWRsaXN0LmluZGV4T2YoZXZlbnQudGFyZ2V0LmdldEF0dHJpYnV0ZSgna2V5MicpKVxyXG4gICAgdmFyIHRlbXBpbmdyZWRzID0gdGhpcy5zdGF0ZS5pbmdyZWRsaXN0LnNsaWNlKCk7XHJcbiAgICB0ZW1waW5ncmVkcy5zcGxpY2UoaW5kZXgsIDEpO1xyXG4gICAgdmFyIHRlbXBsaXN0ID0gdGVtcGluZ3JlZHMudG9TdHJpbmcoKTtcclxuXHJcbiAgICB0aGlzLnNldFN0YXRlKHtcclxuICAgICAgbGlzdHRleHQ6IHRlbXBsaXN0LFxyXG4gICAgICBpbmdyZWRsaXN0OiB0ZW1waW5ncmVkcyxcclxuICAgICAgbGlzdHJlYWR5OiBmYWxzZVxyXG4gICAgfSlcclxuXHJcbiAgICBmZXRjaCh1cmxuYW1lICsgXCIvcmVjaXBlcz91bGlzdD1cIiArIGVuY29kZVVSSSh0ZW1wbGlzdCkpLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UudGV4dCgpKS50aGVuKGRhdGFzID0+IHtcclxuICAgICAgdmFyIGRhdGEgPSBKU09OLnBhcnNlKFwiW1wiICsgZGF0YXMgICsgXCJdXCIpXHJcbiAgICAgIC8vY29uc29sZS5sb2coXCJTaG93IGRhdGEgZmV0Y2hlZC4gQ291bnQ6IFwiICsgSlNPTi5zdHJpbmdpZnkoZGF0YSkpXHJcbiAgICAgIHRoaXMuc2V0U3RhdGUoe1xyXG4gICAgICAgIHJlY2lwZXM6IGRhdGEsXHJcbiAgICAgICAgbGlzdHJlYWR5OiB0cnVlXHJcbiAgICAgIH0pXHJcbiAgICB9KVxyXG4gIH1cclxuXHJcbiAgcmVuZGVyKCl7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICA8ZGl2PlxyXG4gICAgICA8ZGl2IGFsaWduPVwiY2VudGVyXCI+PGJyLz5cclxuICAgICAge1xyXG4gICAgICAgIHRoaXMuc3RhdGUuaW5ncmVkbGlzdC5sZW5ndGggPT0gMFxyXG4gICAgICAgID8gKG51bGwpIDogXHJcbiAgICAgICAgKHRoaXMuc3RhdGUuaW5ncmVkbGlzdC5tYXAoaW5ncmVkID0+IChcclxuICAgICAgICAgIDxCdXR0b24gIHZhcmlhbnQ9XCJvdXRsaW5lZFwiICBvbkNsaWNrPXt0aGlzLnJlbW92ZUluZ3JlZH0ga2V5PXtpbmdyZWR9IGtleTI9e2luZ3JlZH0+e2luZ3JlZH08L0J1dHRvbj5cclxuICAgICAgICApKSlcclxuICAgICAgfVxyXG5cclxuICAgICAgPGJyLz48YnIvPlxyXG4gICAgICB7XHJcbiAgICAgICAgdGhpcy5zdGF0ZS5saXN0cmVhZHkgXHJcbiAgICAgICAgPyBudWxsXHJcbiAgICAgICAgOiA8aDI+TG9hZGluZyByZWxldmFudCByZWNpcGVzLi4uPC9oMj5cclxuICAgICAgfVxyXG5cclxuICAgICAge1xyXG4gICAgICAgIHRoaXMuc3RhdGUucmVjaXBlcy5tYXAocmVjaXBlID0+ICg8ZGl2PjxDYXJkIHN0eWxlPXt7bWF4V2lkdGg6IDQ1MCwgIGJhY2tncm91bmRDb2xvcjogJyNiM2ZmYjMnfX0gPlxyXG4gICAgICAgICAgPENhcmRDb250ZW50PlxyXG4gICAgICAgICAgICA8VHlwb2dyYXBoeSBndXR0ZXJCb3R0b20gdmFyaWFudD1cImhlYWRsaW5lXCIgY29tcG9uZW50PVwiaDFcIj5cclxuICAgICAgICAgICAgICA8aDI+e3JlY2lwZS5uYW1lfTwvaDI+XHJcbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgICAgPFR5cG9ncmFwaHkgY29tcG9uZW50PVwicFwiPlxyXG4gICAgICAgICAgICAgIHtyZWNpcGUuaW5ncmVkaWVudHMubWFwKGluZ3JlZCA9PiAoXHJcbiAgICAgICAgICAgICAgICA8Q2hpcCBsYWJlbD17aW5ncmVkfSAvPlxyXG4gICAgICAgICAgICAgICkpfVxyXG4gICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5Pjxici8+XHJcbiAgICAgICAgICAgICAgPHA+e3JlY2lwZS5kZXNjcmlwdGlvbi5zcGxpdCgnXFxuJykubWFwKChpdGVtLCBrZXkpID0+IHtcclxuICAgICAgICAgICAgICAgIHJldHVybiA8c3BhbiBrZXk9e2tleX0+e2l0ZW19PGJyLz48L3NwYW4+XHJcbiAgICAgICAgICAgICAgfSl9PC9wPlxyXG4gICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IGNvbXBvbmVudD1cInBcIj48YnIvPjxici8+XHJcbiAgICAgICAgICAgICAgPEJhZGdlIGNvbG9yPVwic2Vjb25kYXJ5XCIgYmFkZ2VDb250ZW50PXtyZWNpcGUuZW5kb3JzZX0+XHJcbiAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPVwic21hbGxcIiAgdmFyaWFudD1cImNvbnRhaW5lZFwiICBjb2xvcj1cInByaW1hcnlcIiBrZXkyPXtyZWNpcGUubmFtZX0gc3R5bGU9e3sgZm9udEZhbWlseTogXCJHZW50aXVtIEJvb2sgQmFzaWNcIiwgZm9udFdlaWdodDogXCJib2xkXCIsIGZvbnRTaXplOiAnMTVweCcgfX0gb25DbGljaz17dGhpcy5hZGRFbmRvcnNlbWVudH0+XHJcbiAgICAgICAgICAgICAgICB7KHRoaXMuc3RhdGUuZW5kb3JzZWRyZWNpcGVzLmluZGV4T2YocmVjaXBlLm5hbWUpID09IC0xKSA/IFwiRW5kb3JzZVwiIDogXCJBZGRlZCBlbmRvcnNlbWVudFwifVxyXG4gICAgICAgICAgICAgIDwvQnV0dG9uPlxyXG4gICAgICAgICAgICAgIDwvQmFkZ2U+XHJcbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+XHJcbiAgICAgICAgICA8Q2FyZEFjdGlvbnM+XHJcbiAgICAgICAgICA8L0NhcmRBY3Rpb25zPlxyXG4gICAgICAgIDwvQ2FyZD48YnIvPjwvZGl2PilcclxuICAgICAgICApXHJcbiAgICAgIH1cclxuICAgICAgXHJcbiAgICAgIDxMaW5rICBocmVmPXt7IHBhdGhuYW1lOiAnL2NyZWF0ZScsIHF1ZXJ5OiB7fSB9fT5cclxuICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9XCJjb250YWluZWRcIiAgY29sb3I9XCJzZWNvbmRhcnlcIiA+PGI+TWFrZSB5b3VyIG93biByZWNpcGUhPC9iPjwvQnV0dG9uPlxyXG4gICAgICA8L0xpbms+XHJcbiAgICAgIDwvZGl2PjxzdHlsZSBqc3g+e2BcclxuICAgICAgICBcclxuICAgICAgICBoMiB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogXCJHZW50aXVtIEJvb2sgQmFzaWNcIiwgVGltZXMsIHNlcmlmO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgcCB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogXCJOb3RvIFNhbnNcIiwgVGltZXMsIHNlcmlmO1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8L2Rpdj5cclxuICAgIClcclxuICB9XHJcbn1cclxuXHJcbmNvbnN0IEZpcnN0ID0gIChwcm9wcykgPT4gKFxyXG4gIDxMYXlvdXQ+XHJcbiAgICA8UmVjaXBlTGlzdCBsaXN0dGV4dD17cHJvcHMubGlzdHRleHR9IC8+XHJcbiAgPC9MYXlvdXQ+XHJcbilcclxuXHJcbkZpcnN0LmdldEluaXRpYWxQcm9wcyA9IGFzeW5jIGZ1bmN0aW9uIChjb250ZXh0KSB7XHJcbiAgY29uc3QgbGlzdHRleHQgPSBjb250ZXh0LnF1ZXJ5LmluZ3JlZGxpc3RcclxuICBjb25zb2xlLmxvZyhsaXN0dGV4dClcclxuICByZXR1cm4ge2xpc3R0ZXh0OiBsaXN0dGV4dH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgRmlyc3QiXX0= */\n/*@ sourceURL=pages\\recipelist.js */"
       }));
     }
   }]);
 
   return RecipeList;
-}(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Component);
 
 var First = function First(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_MyLayout_js__["a" /* default */], {
+  return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_MyLayout_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 160
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(RecipeList, {
+  }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(RecipeList, {
+    listtext: props.listtext,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 161
     }
   }));
 };
+
+First.getInitialProps =
+/*#__PURE__*/
+function () {
+  var _ref = _asyncToGenerator(
+  /*#__PURE__*/
+  __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee(context) {
+    var listtext;
+    return __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            listtext = context.query.ingredlist;
+            console.log(listtext);
+            return _context.abrupt("return", {
+              listtext: listtext
+            });
+
+          case 3:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, this);
+  }));
+
+  return function (_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
 
 /* harmony default export */ __webpack_exports__["default"] = (First);
     (function (Component, route) {
@@ -15523,22 +15640,22 @@ var First = function First(props) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/hot")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/recipelist")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/hot.js");
+module.exports = __webpack_require__("./pages/recipelist.js");
 
 
 /***/ })
 
-},[5])
+},[6])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=hot.js.map
+//# sourceMappingURL=recipelist.js.map
